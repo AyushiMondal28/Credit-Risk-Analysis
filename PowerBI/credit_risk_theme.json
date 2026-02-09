@@ -1,0 +1,165 @@
+{
+  "name": "Credit Risk Professional",
+  "background": "#FFFFFF",
+  "foreground": "#1F2937",
+  "tableAccent": "#2563EB",
+
+  "dataColors": [
+    "#2563EB",
+    "#16A34A",
+    "#DC2626",
+    "#9333EA",
+    "#F59E0B",
+    "#64748B"
+  ],
+
+  "visualStyles": {
+
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 13,
+            "color": { "solid": { "color": "#111827" } },
+            "alignment": "left"
+          }
+        ],
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "labels": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 11,
+            "color": { "solid": { "color": "#374151" } }
+          }
+        ]
+      }
+    },
+
+    "card": {
+      "*": {
+        "calloutValue": [
+          {
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 32,
+            "color": { "solid": { "color": "#111827" } }
+          }
+        ],
+        "categoryLabel": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 11,
+            "color": { "solid": { "color": "#6B7280" } }
+          }
+        ]
+      }
+    },
+
+    "barChart": {
+      "*": {
+        "dataPoint": [
+          {
+            "fill": { "solid": { "color": "#2563EB" } }
+          }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": { "solid": { "color": "#374151" } },
+            "titleColor": { "solid": { "color": "#111827" } }
+          }
+        ],
+        "valueAxis": [
+          {
+            "labelColor": { "solid": { "color": "#374151" } },
+            "gridlineColor": { "solid": { "color": "#E5E7EB" } }
+          }
+        ]
+      }
+    },
+
+    "columnChart": {
+      "*": {
+        "dataPoint": [
+          {
+            "fill": { "solid": { "color": "#2563EB" } }
+          }
+        ]
+      }
+    },
+
+    "lineChart": {
+      "*": {
+        "dataPoint": [
+          {
+            "fill": { "solid": { "color": "#2563EB" } }
+          }
+        ],
+        "strokeWidth": [
+          {
+            "value": 3
+          }
+        ]
+      }
+    },
+
+    "matrix": {
+      "*": {
+        "rowHeaders": [
+          {
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 12,
+            "color": { "solid": { "color": "#111827" } }
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 12,
+            "color": { "solid": { "color": "#111827" } }
+          }
+        ],
+        "values": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 11,
+            "color": { "solid": { "color": "#1F2937" } }
+          }
+        ],
+        "grid": [
+          {
+            "gridColor": { "solid": { "color": "#E5E7EB" } }
+          }
+        ]
+      }
+    },
+
+    "table": {
+      "*": {
+        "header": [
+          {
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 12,
+            "color": { "solid": { "color": "#111827" } }
+          }
+        ],
+        "values": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 11,
+            "color": { "solid": { "color": "#1F2937" } }
+          }
+        ]
+      }
+    }
+  }
+}
